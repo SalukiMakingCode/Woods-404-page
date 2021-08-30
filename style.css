@@ -48,3 +48,21 @@ footer {
     width:80%;
     margin:auto;
 }
+
+@keyframes menu {
+    0% {background-color: black;}
+    50% {background-color: gray;}
+    100% {background-color: black;}
+}
+
+
+nav li:hover {
+    animation-name: menu;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+nav li:hover {
+    font-weight: bold;
+}
