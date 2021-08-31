@@ -66,3 +66,8 @@ nav li:hover {
 nav li:hover {
     font-weight: bold;
 }
+
+.woods {
+    width:250px;
+    height:250px;
+}
