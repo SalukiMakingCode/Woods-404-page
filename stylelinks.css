@@ -1,0 +1,73 @@
+html body h1 h2 {
+    margin:0;
+    padding:0;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+nav {
+    height:30px;
+    line-height: 30px;
+}
+
+nav ul {
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    flex-flow:row wrap;
+    width:80%;
+    margin:auto;
+}
+nav li a{
+    color:white;
+}
+
+main {
+    width:80%;
+    margin:auto;
+}
+
+main article{
+    height:600px;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+footer {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+    width:80%;
+    margin:auto;
+}
+
+@keyframes menu {
+    0% {background-color: black;}
+    50% {background-color: gray;}
+    100% {background-color: black;}
+}
+
+
+nav li:hover {
+    animation-name: menu;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+nav li:hover {
+    font-weight: bold;
+}
+
+.woods {
+    width:250px;
+    height:250px;
+}
