@@ -10,6 +10,13 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <script>
+        function showHide(id) {
+            document.getElementById(id).classList.toggle("underList");
+        }
+    </script>
+
 </head>
 <body>
 
@@ -27,16 +34,110 @@
 </header>
 
 <main class="animate__animated animate__bounceInRight animate__delay-1s">
-    <article>
     <h1>All the links that you need</h1>
+    <article>
+
+        <section>
+            <h2>GIT</h2>
+            <ul>
+                <li><a href="https://github.com/" target="_blank">GITHUB : Le site</a></li>
+                <li><a href="http://git-scm.com/book/en/v2" target="_blank">GITHUB : La doc</a></li>
+                <li><a href="https://lab.github.com/" target="_blank">GITHUB : Le lab</a></li>
+                <li><a href="https://training.github.com/downloads/github-git-cheat-sheet.pdf">Git : Le pense-bête</a></li>
+                <li onclick="showHide('learngit');" class="pointer"> + Apprendre Git</li>
+                <ol id="learngit" class="underList">
+                    <li><a href="https://learngitbranching.js.org/?locale=fr_FR" target="_blank">Learn Git Branching by practice</a></li>
+                    <li><a href="https://www.codecademy.com/courses/learn-git/lessons/git-workflow/exercises/hello-git" target="_blank">Codecademy : Learn by practice</a></li>
+                    <li><a href="https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud">Cours Atlassian sur Git</a></li>
+                </ol>
+            </ul>
+        </section>
+
+        <section>
+            <h2>HTML</h2>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML : La doc complète</a></li>
+                <li><a href="https://ronan-hello.fr/series/html/balises-semantiques-html" target="_blank">Les balises sémantiques</a></li>
+                <li><a href="https://developer.mozilla.org/fr/docs/Web/HTML/Link_types/preload" target="_blank">Preload</a> </li>
+            </ul>
+        </section>
+
         <section>
             <h2>CSS</h2>
             <ul>
                 <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS : La doc complète</a></li>
+                <li><a href="https://www.w3schools.com/css/css3_animations.asp">Les animations</a></li>
                 <li><a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">Les selecteurs CSS</a></li>
-                <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">Guide complet CSS Grid</li>
+                <li onclick="showHide('cssgrid');" class="pointer"> + CSS Grid</li>
+                    <ol id="cssgrid" class="underList">
+                        <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank"> Guide complet CSS Grid</a></li>
+                        <li><a href="http://cssgridgarden.com/#fr" target="_blank"> Grid Garden - Serious games</a></li>
+                    </ol>
+                <li onclick="showHide('cssflex');" class="pointer"> + CSS Flexbox</li>
+                    <ol id="cssflex" class="underList">
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank"> Guide complet CSS Flexbox</a></li>
+                        <li><a href="https://codepip.com/games/flexbox-froggy/" target="_blank"> Flexbox Froggy - Serious games</a></li>
+                    </ol>
+                <li><a href="https://html-css-js.com/css/generator/gradient/" target="_blank">Gradient generator</a></li>
+            </ul>
+        </section>
 
+        <section>
+            <h2>FRAMEWORK CSS</h2>
+            <ul>
+                <li><a href="https://animate.style/" target="_blank">Animate.css</a></li>
+                <li onclick="showHide('sass');" class="pointer"> + SASS</li>
+                    <ol id="sass" class="underList">
+                        <li><a href="https://docs.google.com/presentation/d/1gEZrPANsPNGJl-JDfYH_YSHSB9ba-Ss98r69TfPWVQE/edit#slide=id.g35ed75ccf_057" target="_blank"> SASS : Le cours</a></li>
+                        <li><a href="https://sass-lang.com/" target="_blank"> SASS : Le cours</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=aOccUzHD_MQ&list=PLjwdMgw5TTLWVp8WUGheSrGnmEWIMk9H6"> SASS : La présentation en vidéo</a></li>
+                        <li><a href="https://devhints.io/sass"> SASS : Le pense-bête</a></li>
+                    </ol>
+            </ul>
+        </section>
 
+        <section>
+            <h2>WEBDESIGN</h2>
+            <ul>
+                <li><a href="https://color.adobe.com/fr/create/color-wheel" target="_blank">Roue Chromatique</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>MARKDOWN</h2>
+            <ul>
+                <li><a href="https://guides.github.com/features/mastering-markdown/">Markdown : La doc complète</a></li>
+                <li><a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">Markdown : Le pense bête</a></li>
+                <li><a href="https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md">Markdown : Les emojis</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>JAVASCRIPT</h2>
+            <ul>
+
+            </ul>
+        </section>
+
+        <section>
+            <h2>PHP</h2>
+            <ul>
+
+            </ul>
+        </section>
+
+        <section>
+            <h2>REACT JS</h2>
+            <ul>
+                <li><a href="https://fr.reactjs.org/" target="_blank">React : La doc complète (en français !)</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>EXTRA</h2>
+            <ul>
+                <li><a href="https://jsfiddle.net/" target="_blank">JSfiddle - tester son code en ligne</a></li>
+                <li><a href="https://kahoot.it/">Kahoot</a></li>
             </ul>
         </section>
 
