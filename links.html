@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>404 - Woods not here</title>
+    <title>The links - Woods is here</title>
     <link rel="preload" href="style.css" as="style" />
     <link href="stylelinks.css" rel="stylesheet" />
     <link
@@ -66,7 +66,12 @@
             <h2>CSS</h2>
             <ul>
                 <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS : La doc complète</a></li>
-                <li><a href="https://www.w3schools.com/css/css3_animations.asp">Les animations</a></li>
+                <li onclick="showHide('cssanimation');" class="pointer"> + Les animations</li>
+                    <ol id="cssanimation" class="underList">
+                        <li><a href="https://www.w3schools.com/css/css3_animations.asp" target="_blank"> Guide complet des animations</a></li>
+                        <li><a href="https://acchou.github.io/html-css-cheat-sheet/animation.html" target="_blank"> Demo animation</a></li>
+                        <li><a href="https://animista.net/play/basic" target="_blank">Generateur d'animation</a></li>
+                    </ol> 
                 <li><a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">Les selecteurs CSS</a></li>
                 <li onclick="showHide('cssgrid');" class="pointer"> + CSS Grid</li>
                     <ol id="cssgrid" class="underList">
