@@ -33,20 +33,11 @@ main {
 }
 
 main article{
-    height:620px;
+    height:650px;
     display:flex;
     flex-flow:column wrap;
     justify-content: flex-start;
     align-items: flex-start;
-}
-
-main h1 {
-    width:100%;
-    height:30px;
-    text-align:center;
-    line-height: 30px;
-    margin-top:5px;
-    margin-bottom:5px;
 }
 
 main h2 {
