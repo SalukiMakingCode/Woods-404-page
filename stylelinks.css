@@ -19,7 +19,7 @@ nav ul {
     display:flex;
     justify-content: space-around;
     flex-flow:row wrap;
-    width:80%;
+    width:90%;
     margin:auto;
 }
 nav li a{
@@ -27,12 +27,13 @@ nav li a{
 }
 
 main {
-    width:80%;
+    width:90%;
     margin:auto;
+    font-size: 1rem;
 }
 
 main article{
-    height:610px;
+    height:620px;
     display:flex;
     flex-flow:column wrap;
     justify-content: flex-start;
@@ -59,7 +60,7 @@ footer {
     justify-content: space-between;
     background-color: black;
     color:white;
-    width:80%;
+    width:90%;
     margin:auto;
 }
 
@@ -81,8 +82,12 @@ nav li:hover {
     font-weight: bold;
 }
 
-section li {
+main li {
     line-height:22px;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 a {
