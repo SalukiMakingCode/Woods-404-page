@@ -19,7 +19,7 @@ nav ul {
     display:flex;
     justify-content: space-around;
     flex-flow:row wrap;
-    width:90%;
+    width:95%;
     margin:auto;
 }
 nav li a{
@@ -27,13 +27,13 @@ nav li a{
 }
 
 main {
-    width:90%;
+    width:95%;
     margin:auto;
     font-size: 1rem;
 }
 
 main article{
-    height:660px;
+    height:680px;
     display:flex;
     flex-flow:column wrap;
     justify-content: flex-start;
@@ -51,7 +51,7 @@ footer {
     justify-content: space-between;
     background-color: black;
     color:white;
-    width:90%;
+    width:95%;
     margin:auto;
     height:30px;
     line-height: 30px;
